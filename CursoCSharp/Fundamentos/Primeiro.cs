@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CursoCSharp.Fundamentos {
     class Primeiro {
-        static void Main() {
+        public static void Executar() {
             Console.WriteLine("opa");
         }
     }
