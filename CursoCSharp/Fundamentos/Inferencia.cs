@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CursoCSharp.Fundamentos {
     class Inferencia {
@@ -8,8 +6,15 @@ namespace CursoCSharp.Fundamentos {
             // inferencia de tipos
 
             var nome = "renan"; // devo inicializar
+            Console.WriteLine(nome);
 
             // nome = 123 // dá erro pois ela foi inicializada com um string
+
+            var idade = 123;
+            Console.WriteLine(idade);
+
+            int a; //declarei 
+            int b = 2; //declarei e inicializei
 
 
         }
