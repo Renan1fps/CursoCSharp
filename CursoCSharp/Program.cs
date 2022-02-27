@@ -20,6 +20,7 @@ namespace CursoCSharp {
 
                 // estruturas de controle
                 {"Exercício - Estrutura de controle", Exercicio.Executar},
+                {"Exercício Dois - Estrutura de controle", Exercicio2.Executar},
             });
 
             central.SelecionarEExecutar();
