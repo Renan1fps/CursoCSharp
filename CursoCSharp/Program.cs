@@ -19,8 +19,9 @@ namespace CursoCSharp {
                 {"Conversões - Fundamentos", Conversoes.Executar},
 
                 // estruturas de controle
-                {"Exercício - Estrutura de controle", Exercicio.Executar},
+                {"Exercício Um - Estrutura de controle", Exercicio.Executar},
                 {"Exercício Dois - Estrutura de controle", Exercicio2.Executar},
+                {"Exercício Tres - Estrutura de controle", For.Executar},
             });
 
             central.SelecionarEExecutar();
