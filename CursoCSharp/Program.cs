@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaControle;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp {
     class Program {
@@ -22,6 +23,9 @@ namespace CursoCSharp {
                 {"Exercício Um - Estrutura de controle", Exercicio.Executar},
                 {"Exercício Dois - Estrutura de controle", Exercicio2.Executar},
                 {"Exercício Tres - Estrutura de controle", For.Executar},
+
+                // classes e metodos
+                {"Membros: Atributos e Métodos -Classes e metodos", Membros.Executar},
             });
 
             central.SelecionarEExecutar();
