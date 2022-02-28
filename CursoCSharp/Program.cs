@@ -31,6 +31,7 @@ namespace CursoCSharp {
                 {"Encadeamento Metodos -Classes e metodos", EncadeamentoMetodos.Executar},
                 {"Metodos Estáticos -Classes e metodos", MetodosEstaticos.Executar},
                 {"Parametros variaveis -Classes e metodos", ParametrosVariaveis.Executar},
+                {"Parametros nomeados -Classes e metodos", ParametrosNomeados.Executar},
             });
 
             central.SelecionarEExecutar();
