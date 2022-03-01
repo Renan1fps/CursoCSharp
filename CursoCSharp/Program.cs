@@ -32,6 +32,7 @@ namespace CursoCSharp {
                 {"Metodos Estáticos -Classes e metodos", MetodosEstaticos.Executar},
                 {"Parametros variaveis -Classes e metodos", ParametrosVariaveis.Executar},
                 {"Parametros nomeados -Classes e metodos", ParametrosNomeados.Executar},
+                {"Get e Set -Classes e metodos", GetSet.Executar},
             });
 
             central.SelecionarEExecutar();
