@@ -8,7 +8,7 @@ namespace CursoCSharp.ClassesEMetodos {
             Pessoa fulano = new Pessoa();
             fulano.Nome = "Renanzera";
             fulano.Idade = 21;
-            fulano.ApresentarConsole();
+            fulano.ApresentarConsole(); // metodo da classe que apresenta infos
         }
     }
 }
