@@ -18,7 +18,7 @@ namespace CursoCSharp.Fundamentos {
 
             // nesse caso vai tentar realizar o parse se for um numero retorna ele, senão retorna zero
             Console.WriteLine("Digite um numero:");
-            int.TryParse(Console.ReadLine(), out int parseado);
+            int.TryParse(Console.ReadLine(), out int parseado); // preferencialmente usar esse
             Console.WriteLine("O valor parseado é -> {0}", parseado);
         }
     }
